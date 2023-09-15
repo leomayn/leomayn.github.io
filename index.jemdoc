@@ -11,17 +11,18 @@ Email: leomayn \[at\] cs (dot) washington (dot) edu\n
 [https://twitter.com/leomayn_ Twitter] 
 ~~~
 
-#== About me
-#I am an undergraduate student in the Paul G. Allen School of Computer Science & Engineering at the University of Washington. Currently, I am participating in research under the guidance of Ph.D. student [https://qwcui.github.io/ Qiwen Cui], supervised by Professor [https://simonshaoleidu.com Simon Shaolei Du].
-
-#My current research focus is in reinforcement learning, and I look forward to exploring other areas within the broader field of machine learning.
-
-
+== About me
+I am an undergraduate student in the Paul G. Allen School of Computer Science & Engineering at the University of Washington. I am primarily interested in reinforcement learning.
 == Research
-My research interests include 
-- Reinforcement Learning
-- Bandits
-- Machine Learning Theory
+Theoretical Interests
+- Linear Bandits
+- RL with function approximation
+- Game Theory
+
+Applied Interests
+- RL for robotics
+- RL for finance
+- RL for games (i.e. AlphaZero)
 
 
 #== Selected Publications 
