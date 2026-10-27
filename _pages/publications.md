@@ -7,6 +7,10 @@ author_profile: true
 
 ## 2026
 
+- [Performance Gaps Between Open-Loop, Certainty-Equivalent, and Optimal Control Under Action-Dependent Observations](https://arxiv.org/abs/2610.33412)\
+  **Leo Maynard-Zhang**, Sunmook Choi, Yahya Sattar, Yassir Jedra, Sarah Dean, Maryam Fazel.\
+  arXiv 2026.
+
 - [Two-Layer Linear Auto-Regressive Models Estimate Latent States](https://arxiv.org/abs/2606.12691)  
   Yahya Sattar, Sunmook Choi, **Leo Maynard-Zhang**, Yassir Jedra, Maryam Fazel, Sarah Dean.  
   ICML 2026.
