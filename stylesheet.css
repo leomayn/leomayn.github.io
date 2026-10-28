@@ -1,0 +1,44 @@
+/* Adapted from https://github.com/jonbarron/jonbarron.github.io */
+:root {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #111;
+  background: #fff;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.5; }
+a { color: #1772d0; text-decoration: none; }
+a:hover, a:focus { color: #f09228; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+p { margin: 12px 0; }
+.page { width: 100%; max-width: 800px; margin: 0 auto; padding: 20px; }
+.profile { display: flex; align-items: center; gap: 40px; padding: 20px 0; }
+.bio { flex: 1; min-width: 0; }
+h1 { margin: 0 0 16px; font-size: 32px; font-weight: 400; text-align: center; line-height: 1.2; }
+.portrait { flex: 0 0 33%; }
+.portrait img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: center 35%; border-radius: 50%; }
+.contact-links { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0 10px; }
+.contact-links { margin-top: 18px; }
+section { margin: 0 0 32px; scroll-margin-top: 24px; }
+h2 { margin: 0 0 12px; font-size: 22px; font-weight: 400; }
+.publication { margin: 22px 0 26px; }
+.publication h3 { margin: 0 0 3px; font-size: 14px; line-height: 1.5; }
+.publication p { margin: 2px 0; }
+.subheading { margin: 16px 0 8px; font-size: 14px; }
+.teaching-list { margin: 8px 0; padding-left: 20px; }
+.teaching-list li { margin: 8px 0; }
+footer { padding: 12px 0 8px; text-align: right; font-size: 12px; }
+.page-header { margin: 20px 0 40px; text-align: center; }
+.site-name { font-size: 24px; }
+.site-name a { color: inherit; }
+.page-title { margin-bottom: 28px; text-align: left; font-size: 22px; }
+.skip-link { position: absolute; left: 16px; top: -100px; padding: 8px 12px; background: white; }
+.skip-link:focus { top: 8px; }
+
+@media (max-width: 600px) {
+  .profile { flex-direction: column-reverse; gap: 24px; padding-top: 12px; }
+  .portrait { flex: none; width: min(60%, 220px); }
+  h1 { font-size: 30px; }
+  footer { text-align: center; }
+}
